@@ -4,14 +4,22 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+I have completed the task and shared it with you. The project is deployed on Vercel, and you can find the link below:
+URL: https://flirtbate-six.vercel.app/
+
+I have also uploaded the project to GitHub, and here is the link to the public folder:
+GitHub Repository: https://github.com/akashkrp20/flirtbate
+
+I used Next.js (version 15.2.3). To run the code, please follow these steps:
+
+Pull the repository.
+Run npm install.
+Execute npm run dev.
+
+
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
