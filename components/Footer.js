@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Footer() {
@@ -30,30 +31,30 @@ export default function Footer() {
                   <div className='manu-1'>
                     <div className='manu-1-1'>
                       <p>menu</p>
-                      <a href='/'>Home</a>
-                      <a href='/'>FAQs</a>
-                      <a href='/'>Sign up</a>
-                      <a href='/'>Login</a>
+                      <Link href='/'>Home</Link>
+                      <Link href='/'>FAQs</Link>
+                      <Link href='/'>Sign up</Link>
+                      <Link href='/'>Login</Link>
                     </div>
                     <div className='manu-1-2'>
                       <p>Resource</p>
-                      <a href='/'>Privacy statement</a>
-                      <a href='/'>Cookie statement</a>
-                      <a href='/'>Terms and conditions</a>
+                      <Link href='/'>Privacy statement</Link>
+                      <Link href='/'>Cookie statement</Link>
+                      <Link href='/'>Terms and conditions</Link>
                     </div>
                   </div>
                   <div className='manu-2'>
                     <p>Category</p>
-                    <a href='/'>Cam to Cam</a>
-                    <a href='/'>Sex Chat</a>
-                    <a href='/'>Chat With Girls</a>
-                    <a href='/'>Dirty Chats</a>
-                    <a href='/'>Stranger Chat</a>
-                    <a href='/'>Nude Chat</a>
-                    <a href='/'>Mature Chat</a>
-                    <a href='/'>Lesbian Chat</a>
-                    <a href='/'>Cuckold Chat</a>
-                    <a href='/'>Anonymous Chat</a>
+                    <Link href='/'>Cam to Cam</Link>
+                    <Link href='/'>Sex Chat</Link>
+                    <Link href='/'>Chat With Girls</Link>
+                    <Link href='/'>Dirty Chats</Link>
+                    <Link href='/'>Stranger Chat</Link>
+                    <Link href='/'>Nude Chat</Link>
+                    <Link href='/'>Mature Chat</Link>
+                    <Link href='/'>Lesbian Chat</Link>
+                    <Link href='/'>Cuckold Chat</Link>
+                    <Link href='/'>Anonymous Chat</Link>
                   </div>
                 </div>
               </div>

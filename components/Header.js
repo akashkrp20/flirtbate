@@ -1,11 +1,12 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function Header() {
     return (
         <header className="header">
             <div className='header-Container'>
-                <a className='logo' href='/'><Image src='/images/new-logo.png' width={182} height={36} alt='flirtbate' className='logo-image' /></a>
+                <Link className='logo' href='/'><Image src='/images/new-logo.png' width={182} height={36} alt='flirtbate' className='logo-image' /></Link>
                 <div className='search-box'>
                     <Image src='/images/searchLine.svg' alt='Search Icon' width={20} height={20} />
                     <span>Search</span>
