@@ -24,7 +24,7 @@ export default function Footer() {
             <div className='footer-nemu'>
               <div className='footer-manu-inner'>
                 <div className='manu-left'>
-                  <a className='logo' href='/'><Image src='/images/new-logo.png' width={182} height={36} alt='flirtbate' className='logo-image' /></a>
+                  <Link className='logo' href='/'><Image src='/images/new-logo.png' width={182} height={36} alt='flirtbate' className='logo-image' /></Link>
                   <p>Instant connections, lasting memories</p>
                 </div>
                 <div className='manu-right'>
